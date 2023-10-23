@@ -2,9 +2,9 @@ name: Garrett-GitHubActionsScheduled
 
 on:
   schedule:
-    - cron: '20 20 * * *'
-    - cron: '45 19 * * 1'  # Ejecutar los lunes a las 15:45 (UTC-4)
-    - cron: '00 00 * * 1'  # Ejecutar los lunes a las 20:00 (UTC-4)
+    - cron: '24 18 * * *'
+    # - cron: '45 19 * * 1'  # Ejecutar los lunes a las 15:45 (UTC-4)
+    # - cron: '00 00 * * 1'  # Ejecutar los lunes a las 20:00 (UTC-4)
   
 jobs:
   test:
