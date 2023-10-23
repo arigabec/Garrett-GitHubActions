@@ -6,9 +6,9 @@ on:
       - feature/*
   
   schedule:
-    - cron: '45 19 * * 1'  # Ejecutar a las 15:45 todos los lunes (hora local en Bolivia)
-    - cron: '00 20 * * 1'  # Ejecutar a las 18:00 todos los lunes (hora local en Bolivia)
-    - cron: '00 00 * * 1'  # Ejecutar a las 20:00 todos los lunes (hora local en Bolivia)
+    - cron: '10 20 * * *'
+    # - cron: '45 19 * * 1'  # Ejecutar a las 15:45 todos los lunes (hora local en Bolivia)
+    # - cron: '00 00 * * 1'  # Ejecutar a las 20:00 todos los lunes (hora local en Bolivia)
 
   workflow_dispatch:
   
